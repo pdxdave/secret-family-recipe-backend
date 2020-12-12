@@ -33,7 +33,7 @@ Users
 Recipes
 |id|user_id|title|source|ingredients|instructions|category|private|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1|1|popcorn|Uncle Fred|Popcord|Put in microwave|snack|true|
+|1|1|popcorn|Uncle Fred|Popcorn|Put in microwave|snack|true|
 |2|1|PBJ|Aunt Ellen|bread, jam, peanut butter|do I really need to say?|lunch|true|
 |3|2|beef jerky|Cousin Alice|beef|dry the meat|snack|true|
 
