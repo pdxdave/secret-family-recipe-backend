@@ -15,15 +15,16 @@ exports.up = function(knex) {
             .notNullable();
         tbl.string('source', 100)
             .notNullable();
-        tbl.text('ingredients')
+        tbl.array('ingredients')
             .notNullable();
-        tbl.text('instructions')
+        tbl.array('instructions')
             .notNullable();
         tbl.string('category')
             .notNullable();
         tbl.string('private', 100)
             .notNullable()
             .defaultTo('true');
+        tbl.array('subcategories')
         tbl.integer('user_id')
             .unsigned()
             .notNullable()
