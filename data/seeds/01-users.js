@@ -4,13 +4,8 @@ exports.seed = function (knex) {
   return knex('users').insert([
     {
       id: 1,
-      username: 'billy idol',
+      username: 'SecretFamilyRecipes',
       password: bcrypt.hashSync('rebel', 12),
     },
-    {
-      id: 2,
-      username: 'steve stevens',
-      password: bcrypt.hashSync('atomic', 12),
-    },
-  ]);
+    ]);
 };
